@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from torch.utils.data import DataLoader
 
 from core.tags import VALID
-from . import concat_dataset
+from .abctrainer import concat_dataset
 
 
 class ABCValidator(ABC):
